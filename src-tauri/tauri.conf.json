@@ -27,7 +27,9 @@
   },
   "bundle": {
     "active": true,
-    "targets": ["nsis"],
+    "targets": [
+      "nsis"
+    ],
     "icon": [
       "icons/32x32.png",
       "icons/128x128.png",
@@ -39,7 +41,7 @@
   },
   "plugins": {
     "updater": {
-      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IERCMEIwQkMwODQ4MkI0MEIKUldRTHRJS0V3QXNMMjNzWFcxVys5TTJLZXR5MjdEZmx0UUdXNGVkamZjVWpZSHErSExqMnorVU0K",
+      "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IDI2MTBCRTlBOTc5NUE0NEUKUldST3BKV1htcjRRSm5WQlpqZVU4SFIzdjV3TXhCdmNSUWlpZmltZUpXdjIvQmg3cVhXcDFnTTQK",
       "endpoints": [
         "https://github.com/ExpTechTW/eazy-controller/releases/latest/download/latest.json"
       ],

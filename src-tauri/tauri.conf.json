@@ -41,7 +41,7 @@
     "updater": {
       "pubkey": "dW50cnVzdGVkIGNvbW1lbnQ6IG1pbmlzaWduIHB1YmxpYyBrZXk6IERCMEIwQkMwODQ4MkI0MEIKUldRTHRJS0V3QXNMMjNzWFcxVys5TTJLZXR5MjdEZmx0UUdXNGVkamZjVWpZSHErSExqMnorVU0K",
       "endpoints": [
-        "https://github.com/YOUR_USERNAME/YOUR_REPO/releases/latest/download/latest.json"
+        "https://github.com/ExpTechTW/eazy-controller/releases/latest/download/latest.json"
       ],
       "windows": {
         "installMode": "passive"

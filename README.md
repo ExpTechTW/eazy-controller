@@ -1,10 +1,10 @@
 # EazyController
 
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
-[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/ExpTechTW/StorViz/releases)
-[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/ExpTechTW/StorViz/releases)
-[![Build Status](https://github.com/ExpTechTW/StorViz/workflows/CI%20Build%20Check/badge.svg)](https://github.com/ExpTechTW/StorViz/actions)
-[![Stars](https://img.shields.io/github/stars/ExpTechTW/StorViz?style=social)](https://github.com/ExpTechTW/StorViz)
+[![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/ExpTechTW/eazy-controller/releases)
+[![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/ExpTechTW/eazy-controller/releases)
+[![Build Status](https://github.com/ExpTechTW/eazy-controller/workflows/CI%20Build%20Check/badge.svg)](https://github.com/ExpTechTW/eazy-controller/actions)
+[![Stars](https://img.shields.io/github/stars/ExpTechTW/eazy-controller?style=social)](https://github.com/ExpTechTW/eazy-controller)
 
 <p align="center">
   <strong>簡單的控制音源輸出</strong>
@@ -57,7 +57,7 @@ EazyController 是一款功能強大的音源輸出控制工具，幫助您快�
 <br>
 
 
-| 作業系統版本 | StorViz 版本 | 狀態 |
+| 作業系統版本 | eazy-controller 版本 | 狀態 |
 | ------------ | ------------ | ---- |
 | **8 及以下** | `-`          | ❌   |
 | **8.1**      | `1.0.0-rc.3` | ⚠️ |
@@ -125,8 +125,8 @@ EazyController 是一款功能強大的音源輸出控制工具，幫助您快�
 
 感謝所有為此專案做出貢獻的開發者！
 
-<a href="https://github.com/exptechtw/StorViz/graphs/contributors">
-  <img src="https://contrib.rocks/image?repo=exptechtw/StorViz" alt="Contributors" />
+<a href="https://github.com/exptechtw/eazy-controller/graphs/contributors">
+  <img src="https://contrib.rocks/image?repo=exptechtw/eazy-controller" alt="Contributors" />
 </a>
 
 ---

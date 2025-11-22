@@ -130,7 +130,7 @@ EazyController 啟動後，會在您的本地電腦開啟一個網路服務端�
 <table>
   <tr>
     <td width="40%">
-      <img src="images/image1.png" alt="手機介面" />
+      <img src="images/image1.png" alt="手機介面" style="max-height: 400px; width: auto;" />
     </td>
   </tr>
 </table>

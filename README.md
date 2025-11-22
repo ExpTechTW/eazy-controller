@@ -79,20 +79,26 @@ EazyController 啟動後，會在您的本地電腦開啟一個網路服務端�
 在與電腦**同一個區域網路**的裝置上，您可以透過以下兩種方式連接：
 
 1. **使用 mDNS 網址（推薦）**：
+
    ```
    http://eazycontroller.local/
    ```
-   > 💡 如果無法使用此網址，請確保您的裝置和電腦都在同一個 Wi-Fi 網路中，且路由器支援 mDNS 功能。
 
+   > 💡 如果無法使用此網址，請確保您的裝置和電腦都在同一個 Wi-Fi 網路中，且路由器支援 mDNS 功能。
+   >
 2. **使用電腦的內網 IP 位址**：
+
    ```
    http://[您的電腦內網IP]:[端口號]/
    ```
+
    > 💡 您可以在 EazyController 主視窗中查看當前的 IP 位址和端口號。
+   >
 
 ### 🔍 如何查看電腦的內網 IP？
 
 **Windows 10/11：**
+
 1. 按 `Win + R` 開啟執行視窗
 2. 輸入 `cmd` 並按 Enter
 3. 在命令提示字元中輸入 `ipconfig`
@@ -127,13 +133,7 @@ EazyController 啟動後，會在您的本地電腦開啟一個網路服務端�
 
 <div align="center">
 
-<table>
-  <tr>
-    <td width="40%">
-      <img src="images/image1.png" alt="手機介面" style="max-height: 400px; width: auto;" />
-    </td>
-  </tr>
-</table>
+<img src="images/image1.png" alt="手機介面" width="250" />
 
 </div>
 

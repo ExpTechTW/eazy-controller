@@ -3,7 +3,6 @@
 [![License: AGPL-3.0](https://img.shields.io/badge/License-AGPL--3.0-blue.svg)](https://opensource.org/licenses/AGPL-3.0)
 [![Version](https://img.shields.io/badge/version-1.0.0-green.svg)](https://github.com/ExpTechTW/eazy-controller/releases)
 [![Platform](https://img.shields.io/badge/platform-Windows-lightgrey.svg)](https://github.com/ExpTechTW/eazy-controller/releases)
-[![Build Status](https://github.com/ExpTechTW/eazy-controller/workflows/CI%20Build%20Check/badge.svg)](https://github.com/ExpTechTW/eazy-controller/actions)
 [![Stars](https://img.shields.io/github/stars/ExpTechTW/eazy-controller?style=social)](https://github.com/ExpTechTW/eazy-controller)
 
 <p align="center">
@@ -23,7 +22,8 @@ EazyController 是一款功能強大的音源輸出控制工具，幫助您快�
 ### 快速下載
 
 <div align="center">
-[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/ExpTechTW/eazy-controller/releases/latest)
+
+[![Download for Windows](https://img.shields.io/badge/Download-Windows-blue?style=for-the-badge&logo=windows)](https://github.com/ExpTechTW/eazy-controller/releases/latest/download/eazy-controller_1.0.0-rc.2_x64-setup.exe)
 
 </div>
 
@@ -123,15 +123,19 @@ EazyController 啟動後，會在您的本地電腦開啟一個網路服務端�
 
 </div>
 
-## 手機螢幕截圖
+## 📱 手機螢幕截圖
+
+<div align="center">
 
 <table>
   <tr>
-    <td width="100%">
+    <td width="40%">
       <img src="images/image1.png" alt="手機介面" />
     </td>
   </tr>
 </table>
+
+</div>
 
 ## 📄 授權條款
 

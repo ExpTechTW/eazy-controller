@@ -45,7 +45,7 @@ export default function Footer() {
         const appVersion = await getVersion();
         setVersion(`v${appVersion}`);
       } else {
-        setVersion('v1.0.0');
+        setVersion('v1.0.0-rc.2');
       }
     };
 
@@ -79,9 +79,9 @@ export default function Footer() {
   const handleGithubClick = async () => {
     if (isTauri) {
       const { open } = await import('@tauri-apps/plugin-shell');
-      await open('https://github.com/ExpTechTW/StorViz');
+      await open('https://github.com/ExpTechTW/eazy-controller');
     } else {
-      window.open('https://github.com/ExpTechTW/StorViz', '_blank');
+      window.open('https://github.com/ExpTechTW/eazy-controller', '_blank');
     }
   };
 

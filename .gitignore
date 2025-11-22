@@ -24,6 +24,10 @@ src-tauri/Cargo.lock
 .env.test.local
 .env.production.local
 
+# Tauri Updater Keys (DO NOT COMMIT!)
+*.key
+*.key.pub
+
 # OS
 .DS_Store
 Thumbs.db

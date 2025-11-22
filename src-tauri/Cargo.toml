@@ -57,3 +57,4 @@ windows = { version = "0.58", features = [
     "Storage_Streams",
     "Foundation_Collections",
 ] }
+tauri-plugin-updater = "2.9.0"

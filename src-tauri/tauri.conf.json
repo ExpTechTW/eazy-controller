@@ -39,7 +39,10 @@
     ],
     "createUpdaterArtifacts": true,
     "windows": {
-      "requestedExecutionLevel": "requireAdministrator"
+      "allowDowngrades": true,
+      "nsis": {
+        "installMode": "perMachine"
+      }
     }
   },
   "plugins": {

@@ -45,7 +45,7 @@ export default function Footer() {
         const appVersion = await getVersion();
         setVersion(`v${appVersion}`);
       } else {
-        setVersion('v1.0.0-rc.3');
+        setVersion('v1.0.0-rc.4');
       }
     };
 

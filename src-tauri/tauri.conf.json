@@ -1,7 +1,7 @@
 {
   "$schema": "../node_modules/@tauri-apps/cli/config.schema.json",
   "productName": "eazy-controller",
-  "version": "1.0.0-rc.3",
+  "version": "1.0.0-rc.4",
   "identifier": "com.kai.eazycontroller",
   "build": {
     "frontendDist": "../out",
@@ -38,12 +38,7 @@
       "icons/icon.ico"
     ],
     "createUpdaterArtifacts": true,
-    "windows": {
-      "allowDowngrades": true,
-      "nsis": {
-        "installMode": "perMachine"
-      }
-    }
+    "windows": {}
   },
   "plugins": {
     "updater": {

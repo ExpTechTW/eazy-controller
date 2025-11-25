@@ -14,8 +14,48 @@ jobs:
       - name: Setup Bun
         uses: oven-sh/setup-bun@v2
 
+      - name: Cache Bun dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.bun/install/cache
+            node_modules
+          key: ${{ runner.os }}-bun-${{ hashFiles('bun.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-bun-
+
+      - name: Cache Rust dependencies
+        uses: actions/cache@v4
+        with:
+          path: |
+            ~/.cargo/bin/
+            ~/.cargo/registry/index/
+            ~/.cargo/registry/cache/
+            ~/.cargo/git/db/
+            src-tauri/target/
+          key: ${{ runner.os }}-cargo-${{ hashFiles('src-tauri/Cargo.lock') }}
+          restore-keys: |
+            ${{ runner.os }}-cargo-
+
       - name: Install dependencies
         run: bun install
+
+      - name: Validate version tag matches Tauri config
+        shell: pwsh
+        run: |
+          $tag = "${{ github.ref }}".Replace("refs/tags/", "")
+          if (-not $tag.StartsWith("v")) {
+            Write-Error "Tag '$tag' must start with 'v'"
+            exit 1
+          }
+          $tagVersion = $tag.TrimStart("v")
+          $config = Get-Content "src-tauri/tauri.conf.json" -Raw | ConvertFrom-Json
+          $tauriVersion = $config.version
+          if ($tagVersion -ne $tauriVersion) {
+            Write-Error "Tag version '$tagVersion' does not match tauri.conf.json version '$tauriVersion'"
+            exit 1
+          }
+          Write-Host "Tag version matches tauri.conf.json version: $tagVersion"
 
       - name: Build Tauri app
         uses: tauri-apps/tauri-action@v0

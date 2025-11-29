@@ -364,19 +364,19 @@ export default function Home() {
     const initConnection = async () => {
       if (audioController.getConnectionMode() === 'websocket' && !audioController.isConnected()) {
         try {
-          const urlsToTry = 'ws://eazycontroller.local/ws'
+          const url = 'ws://eazycontroller.local:8800/ws'
 
           let connected = false;
           const lastError: Error | null = null;
 
-          await audioController.initWebSocket(urlsToTry);
+          await audioController.initWebSocket(url);
           connected = true;
 
           if (!connected) {
             throw lastError || new Error('無法連接到任何 WebSocket 伺服器');
           }
         } catch (err) {
-          console.error('WebSocket 連接失敗:', err);
+          console.error('WebSocket 連接失敗:', err);  
           setError('無法連接到 Eazy Controller，請確認應用程式已啟動');
           setLoading(false);
           return;
@@ -395,7 +395,7 @@ export default function Home() {
           ]),
           new Promise((_, reject) =>
             setTimeout(() => {
-              console.error('[頁面] ✗ 載入超時（10秒）');
+              console.error('[頁面] 載入超時 10秒');
               reject(new Error('加載超時'));
             }, 10000)
           )

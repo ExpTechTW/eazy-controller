@@ -32,7 +32,6 @@ class AudioControllerAPI {
     this.wsUrl = url;
     this.wsClient = new WebSocketClient(url);
     await this.wsClient.connect();
-    console.log('WebSocket 已初始化:', url);
   }
 
   /**

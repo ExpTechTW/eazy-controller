@@ -13,8 +13,6 @@ export class WebSocketClient {
   private reconnectAttempts: number = 0;
   private maxReconnectAttempts: number = 10;
   private eventListeners: Map<string, Set<EventCallback<unknown>>> = new Map();
-  // private pendingRequests: Map<string, { resolve: (value: unknown) => void; reject: (error: unknown) => void }> = new Map();
-  // private requestId: number = 0;
   private isIntentionallyClosed: boolean = false;
 
   constructor(url: string) {

@@ -1,5 +1,5 @@
 export interface MediaInfo {
-  session_id: string;  // 會話識別 ID
+  session_id: string; 
   app_name: string;
   title: string;
   artist: string;
